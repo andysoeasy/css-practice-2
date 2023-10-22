@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px auto;
+}
+
+.header, .menu{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.description, .books{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(211, 211, 216);
+}
+
+.description img{
+    width: 400px;
+    height: 400px;
+}
+
+.books{
+    display: flex;
+    flex-direction: column;
+}
+
+.book_1 img, .book_2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.book_1, .book_2{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.book_1 p, .book_2 p{
+    padding: 5px;
+}
+
+hr{
+    width: 50%;
+    margin: auto;
+}
+
+.text{
+    padding: 5px;
+    font-size: 16px;
+}
+
+.btn_read{
+    background-color: rgb(111, 139, 190);
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px;
+    width: 30px;
+}
+
+a:hover {
+    background-color: rgb(100, 149, 237);
+    color: white;
+}
+  
+a:focus {
+    outline: none;
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+}
+
+.footer{
+    text-align: center;
+    color: darkgray;
+}
